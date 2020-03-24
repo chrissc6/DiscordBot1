@@ -11,7 +11,7 @@ discord.js: https://discord.js.org
 discord.js github: https://github.com/discordjs/discord.js
 
 
-Setup:
+###Setup:
 
 Install NodeJS
 
