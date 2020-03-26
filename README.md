@@ -12,6 +12,8 @@ discord.js: https://discord.js.org
 
 discord.js github: https://github.com/discordjs/discord.js
 
+Mozilla: https://developer.mozilla.org/en-US/
+
 
 ### Setup:
 

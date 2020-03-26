@@ -60,9 +60,13 @@ bot.on("message", msg => {
                 bot.channels.get("sleep").send("Silent mode activated.");
                 break;
             case "g":
-                console.log(args)
+                //console.log(args)
                 var x = search(args);
-                //console.log(x)
+                msg.channel.send(x);
+                break;
+            case "d":
+                //console.log(args)
+                var x = search2(args);
                 msg.channel.send(x);
                 break;
     }
@@ -101,15 +105,33 @@ function search(str) {
     var lookfor = "";
 
     str.forEach(i => {
-        if(count == 0){ count++}
-        else{
+        if (count == 0) {
+            count++
+        } else {
             lookfor = lookfor + " " + i;
-            console.log(lookfor)
         }
-        
+
     });
     //Build URL for the search.
-    var query = "http://www.google.com/search?q=" + encodeURIComponent(lookfor);
+    var query = "https://www.google.com/search?q=" + encodeURIComponent(lookfor);
+    //Set Address bar equal to query.
+    return query;
+}
+
+function search2(str) {
+    var count = 0;
+    var lookfor = "";
+
+    str.forEach(i => {
+        if (count == 0) {
+            count++
+        } else {
+            lookfor = lookfor + " " + i;
+        }
+
+    });
+    //Build URL for the search.
+    var query = "https://duckduckgo.com/?q=" + encodeURIComponent(lookfor);
     //Set Address bar equal to query.
     return query;
 }
