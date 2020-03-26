@@ -15,7 +15,7 @@ discord.js github: https://github.com/discordjs/discord.js
 
 Install NodeJS
 
-Make repo
+Make a repo
 
 From repo:
  * npm init
