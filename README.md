@@ -6,6 +6,8 @@ Visual Studio Code: https://code.visualstudio.com/
 
 Discord Developer Portal: https://discordapp.com/developers/
 
+Discord API Permissions: https://discordapi.com/permissions.html
+
 discord.js: https://discord.js.org
 
 discord.js github: https://github.com/discordjs/discord.js
